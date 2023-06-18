@@ -32,8 +32,7 @@ export function RegisterForm() {
             }
         }).then(async response => await response.json());
 
-            console.log('success')
-
+        location.reload();
     };
 
     return (
