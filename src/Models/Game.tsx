@@ -1,8 +1,7 @@
 export class Game {
-    constructor(id: number, name: string, description: string, price: number, sale: number, publisher: string, developer: string, releaseDate: string, genres: string[]) {
+    constructor(id: number, name: string, price: number, sale: number, publisher: string, developer: string, releaseDate: string, genres: string[]) {
         this.id = id;
         this.name = name;
-        this.description = description;
         this.price = price;
         this.sale = sale;
         this.publisher = publisher;
@@ -13,7 +12,6 @@ export class Game {
 
     id: number;
     name: string;
-    description: string;
     price: number;
     sale: number;
     publisher: string;
