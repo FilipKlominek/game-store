@@ -17,7 +17,7 @@ export function NavBar() {
 
     const logout = () => {
         localStorage.removeItem('email');
-        localStorage.removeItem('Authorization');
+        localStorage.setItem('sessionToken', '');
         location.reload();
     }
 
