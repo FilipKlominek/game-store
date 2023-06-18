@@ -3,7 +3,6 @@ import {useEffect, useState} from "react";
 
 export function GenreList() {
     const handleDelete = async (id: number) => {
-        console.log(id)
         const response = await fetch('http://localhost:3000/genres/' + id, {
             method: 'DELETE',
             headers: {
